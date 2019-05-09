@@ -15,7 +15,7 @@ import javax.persistence.Table;
 import javax.persistence.JoinColumn;
 
 @Entity
-@Table
+@Table(name="utilisateur")
 public class Utilisateur implements Serializable {
 	private static final long serialVersionUID = 1L;
 
